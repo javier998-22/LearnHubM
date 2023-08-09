@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true" class="fondo">
+  <ion-card class="Card-Profile">
+    <div class="DivImage">
+      <img class="image" alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    </div>
+    <ion-card-title class="Title-card">Hola .......</ion-card-title>
+  </ion-card>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-segment scrollable="true" >     
+      <ion-segment-button value="Principal" (click)="IraHome()">
+        <ion-icon name="home-outline"></ion-icon>
+        <ion-label>Principal</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="Contenidos">
+        <ion-icon name="library-outline"></ion-icon>
+        <ion-label>Contenidos</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="Notificaciones">
+        <ion-icon name="alert-circle-outline"></ion-icon>
+        <ion-label>Notificaciones</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>

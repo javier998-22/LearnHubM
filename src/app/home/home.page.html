@@ -1,0 +1,22 @@
+<ion-content [fullscreen]="true" class="Fondo">
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-segment scrollable="true">
+      <ion-segment-button value="Contenidos">
+        <ion-icon name="library-outline"></ion-icon>
+        <ion-label>Contenidos</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="Notificaciones">
+        <ion-icon name="alert-circle-outline"></ion-icon>
+        <ion-label>Notificaciones</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button  (click)="IraPerfil()" value="Perfil">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <ion-label>Perfil</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>
